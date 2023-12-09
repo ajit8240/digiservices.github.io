@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+body{
+    font-family: sans-serif;
+
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+    transition:.5s;
+    
+
+}
+
+.fa-bars{
+    font-size: 25px !important;
+    border: none !important;
+    color: #fff;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top:5%;
+
+}
+
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-title{
+    margin-top: 100px;
+
+}
+
+.banner-title h5{
+    color:#ffc9f3;
+    transition: .3s;
+}
+
+.banner-title h5:hover{
+    color:#fc8ae3;
+}
+
+.bi-play-circle{
+    color: white;
+    font-size: 45px;
+    margin: 15px;
+    transition: .3s;
+    
+}
+
+.bi-play-circle:hover{
+    color: #fc8ae3;
+    transform: scale(1.1);
+}
+
+.banner a{
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items:center;
+    transition: .5s;
+}
+
+
+
+.bottom-img{
+    width: 100%;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.banner img{
+    width: 450px;
+}
+
+
+
+
+
+svg{
+    background-color: green;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+/* services ----------------------- */
+#services{
+    padding: 80px 0;
+}
+
+.services-img{
+width: 100px;
+margin-top: 20px;
+}
+
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+/* .title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+} */
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    border: none;
+    border-radius: 20px;
+}
+
+/* -----------ABOUT SECTION------------------ */
+#about-us{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 10px;
+}
+
+
+#testimonial{
+    margin: 100px 0;
+}
+
+.testimonial{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.testimonial img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 20px;
+}
+
+#social-media{
+    background: #f8f9fa;
+    /* margin: 100px 0; */
+
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.social-icon img{
+    width: 60px;
+    transition: .5s;
+}
+
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+
+
+/*-----footer section --------------- */
+
+#footer{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+   padding: 20px; 
+}
+ 
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+
+hr{
+    background-color: white;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+/*------------- up down image animation ------- */
+
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+/* -----------------------------------------  */
+/*--------------fade reveal effect -----------*/
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left  1s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right  1s ease-in;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }    
+  /* copy and past where you want animation */
+  /* reveal fade-left */
